@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Selamat Hari Raya Idul Fitri</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('eid 1.jpg'); /* Ganti dengan path gambar Anda */
+            background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+            background-position: center; /* Memusatkan gambar */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8); /* Menambahkan transparansi pada latar belakang kontainer */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s;
+            max-width: 90%; /* Mengatur lebar maksimum kontainer */
+            max-height: 80%; /* Mengatur tinggi maksimum kontainer */
+            overflow: auto; /* Menambahkan scroll jika konten melebihi tinggi maksimum */
+            margin: 20px; /* Menambahkan margin untuk memberikan ruang di sekitar kontainer */
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            animation: slideIn 1s;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #4CAF50;
+            font-size: 2em;
+            animation: slideIn 1s;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.5em;
+            animation: fadeIn 2s;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #333;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .moon {
+            width: 100px;
+            height: 100px;
+            background-color:darkgrey;
+            border-radius: 50%;
+            position: relative;
+            animation: bounce 2s infinite;
+            margin: 20px auto;
+        }
+
+        .moon::before {
+            content: '';
+            width: 100px;
+            height: 100px;
+            background-color: #f0e68c;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            clip-path: circle(50% at 50% 50%);
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color:#4CAF50;
+            font-weight: bold;
+            font-style: oblique;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="moon"></div>
+        <h3 lang="ar">السلام عليكم ورحمة اللّه وبركاته</h3>
+        <h1>Dengan segala kerendahan hati, Kami sekeluarga mengucapkan</h1>
+        <h2>Selamat Hari Raya Idul Fitri</h2>
+        <p>Mohon Maaf Lahir dan Batin 🙏 <br>31 Maret 2025 M<br> 1 Syawal 1446 H</p>
+        <h3 lang="ar">تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ صِيَامَنَا وَصِيَامَكُمْ تَقَبَّلْ يَا كَرِيْمَ</h3>
+        <footer> 🙏✨ Gerhan & Keluarga ✨🙏</footer>
